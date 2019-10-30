@@ -1,0 +1,32 @@
+#levels
+{
+	width: auto;
+	height: 100%;
+}
+
+.spellbox
+{
+	border: 1px solid black;
+	height: 100%;
+	width: 100%;
+
+	text-align: center;
+}
+
+.grid-container
+{
+	display: grid;
+	/*grid-gap: 50px;*/
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto;
+
+	border: 1px solid blue;
+}
+
+.prepared
+{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
